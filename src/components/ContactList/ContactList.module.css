@@ -1,0 +1,33 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    background: grey;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.button:active {
+    background: white;
+    color: grey;
+}
